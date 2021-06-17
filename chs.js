@@ -396,7 +396,7 @@ var cnRegReplace = new Map([
     [/^Energy adds (.+) to the Super-Energy exponent.$/, '能源将超级能源指数增加 $1。'],
     [/^Get (.+) more supercharged resets on each Super reset.$/, '每次超级重置获得 $1 次以上的增压重置。'],
     [/^The first (.+) Energy Upgrade costs are extended by (.+) levels.$/, '前 $1 次能源升级费用增加 $2 级。'],
-    [/^Mega Energy adds (.+) levels to the first (.+) Super Upgrades.$/, '巨型能源 为前 $1 个超级升级增加了 $2 级。'],
+    [/^Mega Energy adds (.+) levels to the first (.+) Super Upgrades.$/, '巨型能源 为前 $2 个超级升级增加了 $1 级。'],
     [/^Mega Factories add (.+) levels to all Energy upgrades.$/, '巨型工厂为所有能源升级增加 $1 级。'],
     [/^Cost: (.+) Energy$/, '成本: $1 能源'],
     [/^Cost: (.+) Energy$/, '成本: $1 能源'],
