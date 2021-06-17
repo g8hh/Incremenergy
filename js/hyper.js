@@ -139,7 +139,7 @@ function buyHyperUpg(x) {
 
 function resetHyperUpgs() {
 	if (tmp.hyper.totalUpgs.lt(1)) return;
-	if (!confirm("Are you sure you want to reset your Hyper Upgrades? This will force a Hyper reset!")) return;
+	if (!confirm("您确定要重置您的究极升级吗？ 这将强制究极重置！")) return;
 	player.hyper.upgs = {};
 	hyperReset(true)
 }
