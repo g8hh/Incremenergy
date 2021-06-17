@@ -61,7 +61,7 @@ var cnItems = {
     'You have supercharged your Energy {{formatWhole(player.sup.times)}} times.': '你已经将你的能源增压 {{formatWhole(player.sup.times)}} 次。',
     'WARNING: Each Hyper Upgrade level decreases the Hyper-Energy exponent by {{format(tmp.hyper.upgDecExp)}}. (Currently: -{{format(tmp.hyper.totalUpgs.times(tmp.hyper.upgDecExp))}}': '警告：每个超级升级级别都会将巨型能源指数降低 {{format(tmp.hyper.upgDecExp)}}。 （目前：-{{format(tmp.hyper.totalUpgs.times(tmp.hyper.upgDecExp))}}',
     '\t\t\tYou have': '\t\t\t你有',
-    'Due to Energy Overflow, your Energy is being divided by {{format(tmp.en.divPerSec)}} every second.': '由于能源溢出，你的能源每秒被 {{format(tmp.en.divPerSec)}} 分割。',
+    'Due to Energy Overflow, your Energy is being divided by {{format(tmp.en.divPerSec)}} every second.': '由于能源溢出，你的能源每秒除以 {{format(tmp.en.divPerSec)}}。',
     '{{formatWhole(tmp.skills[x].xpGain)}} XP (next at {{format(nextXP(x))}} {{skill_data[x].basedOn}}': '{{formatWhole(tmp.skills[x].xpGain)}} 经验 (下一个在 {{format(nextXP(x))}} {{skill_data[x].basedOn}}',
     '\t\t\tThe Energy mechanic works like this: You generate 1 Base Energy/sec, then it\'s raised to the power of the exponent shown.': '\t\t\t能源机制的工作原理是这样的：你每秒产生 1 基础能源，然后增加到所示指数的幂。',
     'Mega': '巨型',
