@@ -159,7 +159,7 @@ var cnItems = {
     'Self-Charged Batteries add to the Mega & Hyper-Energy exponents at a reduced rate.': '自充电电池添加到巨型 & 究极能源指数在一个减少的速率。',
     'All Mega Upgrades beyond the first two rows are kept on Hyper reset, and the Split Atom effect is 75% stronger.': '前两行以外的所有巨型升级都保持究极重置，分裂原子效果增强 75%。',
     'Buy max Super-Energy Upgrades, and the first softcap of all Energy Upgrades (except Self-Charging Batteries) is 20% weaker.': '购买最大超级能源升级，所有能源升级的第一个软上限（自充电电池除外）弱 20%。',
-    '': '',
+    'Subatomic Generators': '亚原子发生器',
     '': '',
     '': '',
     '': '',
@@ -385,6 +385,9 @@ var cnExcludePostfix = [
 var cnRegReplace = new Map([
     [/^You have (.+) points$/, '你有 $1 点数'],
     [/^Next at (.+) points$/, '下一个在 $1 点数'],
+    [/^Super-Energy multiplies XP gain by (.+).$/, '超级能量将 XP 增益乘以 $1。'],
+    [/^Power Plants are (.+)\% stronger.$/, '发电厂要强 $1\%。'],
+    [/^Split atoms add (.+) to the Super-Energy exponent.$/, '分裂原子将超级能量指数加 $1。'],
     [/^The (.+) of times supercharged adds (.+) to the Super-Energy effect.$/, '$1次 增压增加 $2 的超级能源效果。'],
     [/^The 2nd Energy Upgrade's cost increases (.+)\% slower$/, '第二能源升级的成本增长速度降低了 $1\%'],
     [/^The first 3 Energy Upgrade costs are extended by (.+) levels.$/, '前 3 次能源升级费用扩展 $1 级。'],
