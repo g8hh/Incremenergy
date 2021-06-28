@@ -160,7 +160,7 @@ var cnItems = {
     'All Mega Upgrades beyond the first two rows are kept on Hyper reset, and the Split Atom effect is 75% stronger.': '前两行以外的所有巨型升级都保持究极重置，分裂原子效果增强 75%。',
     'Buy max Super-Energy Upgrades, and the first softcap of all Energy Upgrades (except Self-Charging Batteries) is 20% weaker.': '购买最大超级能源升级，所有能源升级的第一个软上限（自充电电池除外）弱 20%。',
     'Subatomic Generators': '亚原子发生器',
-    '': '',
+    '{{(player.mega.upgrades.includes(19))?\"Destroy 1 Fortune Energy\":\"Destroy all your Fortune Energy\"}} to get{{(player.fortune.energy.gte(fortune_req)?(\" \"+formatWhole(tmp.fortune.minGain)+\"-\"+formatWhole(tmp.fortune.maxGain)):\"\")}} gifts!': '{{(player.mega.upgrades.includes(19))?\"摧毁1财富能源\":\"摧毁全部财富能源\"}} 去获得{{(player.fortune.energy.gte(fortune_req)?(\" \"+formatWhole(tmp.fortune.minGain)+\"-\"+formatWhole(tmp.fortune.maxGain)):\"\")}} 礼物!',
     '': '',
     '': '',
     '': '',
