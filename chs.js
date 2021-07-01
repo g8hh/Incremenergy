@@ -401,6 +401,7 @@ var cnRegReplace = new Map([
     [/^The first (.+) Energy Upgrade costs are extended by (.+) levels.$/, '前 $1 次能源升级费用增加 $2 级。'],
     [/^Mega Energy adds (.+) levels to the first (.+) Super Upgrades.$/, '巨型能源 为前 $2 个超级升级增加了 $1 级。'],
     [/^Mega Factories add (.+) levels to all Energy upgrades.$/, '巨型工厂为所有能源升级增加 $1 级。'],
+    [/^Req: Reach (.+) Mega-Energy.$/, '需要: 达到 $1 巨型能源.'],
     [/^Cost: (.+) Energy$/, '成本: $1 能源'],
     [/^Cost: (.+) Energy$/, '成本: $1 能源'],
     [/^Cost: (.+) Mega-Energy$/, '成本: $1 巨型能源'],
