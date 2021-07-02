@@ -13,7 +13,7 @@ window.location.reload();}catch(e){console.log("Import failed!");console.error(e
 function exportSave(){let data=btoa(JSON.stringify(player))
 const a=document.createElement('a');a.setAttribute('href','data:text/plain;charset=utf-8,'+data);a.setAttribute('download',"incremenergy.txt");a.setAttribute('id','downloadSave');document.body.appendChild(a);a.click();document.body.removeChild(a);}
 function toggleAutosave(){player.autosave=!player.autosave;}
-function hardReset(){if(!confirm("Are you sure you want to reset everything???"))return;player=getStartPlayer();save();window.location.reload();}
+function hardReset(){if(!confirm("您确定要重置所有内容吗???"))return;player=getStartPlayer();save();window.location.reload();}
 function getUnlockText(){if(!player.unlocks.includes("Super"))return "Next Feature: Requires an Energy exponent of "+formatWhole(12)+"."
 else if(!player.unlocks.includes("Auto"))return "Next Feature: Requires "+formatWhole(50)+" Super-Energy."
 else if(!player.unlocks.includes("Mega"))return "Next Feature: Requires an Energy exponent of "+formatWhole(4e3)+"."

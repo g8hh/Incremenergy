@@ -36,4 +36,4 @@ if(n.gte(50))n=n.times(50).sqrt()
 return n;}
 function buyHyperUpg(x){if(player.hyper.energy.lt(hyperUpgs[x].cost(scaledHyperUpgs(player.hyper.upgs[x]||new Decimal(0)))))return;player.hyper.energy=player.hyper.energy.sub(tmp.hyper.upgs[x].cost)
 player.hyper.upgs[x]=Decimal.add(player.hyper.upgs[x]||0,1);}
-function resetHyperUpgs(){if(tmp.hyper.totalUpgs.lt(1))return;if(!confirm("Are you sure you want to reset your Hyper Upgrades? This will force a Hyper reset!"))return;player.hyper.upgs={};hyperReset(true)}
+function resetHyperUpgs(){if(tmp.hyper.totalUpgs.lt(1))return;if(!confirm("您确定要重置您的究极升级吗？ 这将强制究极重置！"))return;player.hyper.upgs={};hyperReset(true)}
